@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link css file -->
+    <link rel="stylesheet" href="reciepe.css">
+
+    <!-- link font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>All World Recipes</h1>
+        <div class="slider">
+            <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+            <ul class="tabBar">
+                <li class="tab active" data-query="Cake">Cake</li>
+                <li class="tab" data-query="Fish">Fish</li>
+                <li class="tab" data-query="Chicken">Chicken</li>
+                <li class="tab" data-query="Salad">Salad</li>
+                <li class="tab" data-query="Soup">Soup</li>
+                <li class="tab" data-query="Curry">Curry</li>
+                <li class="tab" data-query="Egg">Egg</li>
+                <li class="tab" data-query="Milk">Milk</li>
+                <li class="tab" data-query="Rice">Rice</li>
+                <li class="tab" data-query="Pasta">Pasta</li>
+                <li class="tab" data-query="Burger">Burger</li>
+                <li class="tab" data-query="Pizza">Pizza</li>
+                <li class="tab" data-query="Sandwich">Sandwich</li>
+                <li class="tab" data-query="Noodles">Noodles</li>
+                <li class="tab" data-query="Bread">Bread</li>
+                <li class="tab" data-query="Seafood">Seafood</li>
+                <li class="tab" data-query="Sushi">Sushi</li>
+            </ul>
+            <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <form action="">
+            <input type="search" id="search-input" placeholder="e.g.  Mushroom">
+            <button id="search-button">Search</button>
+        </form>
+    </header>
+    <div id="main">
+    </div>
+    <div class="recipe-details">
+        <button type="button" class="recipe-close-btn">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="recipe-details-content">
+
+        </div>
+    </div>
+
+<!-- Link javascrip file -->
+ <script src="reciepe.js"></script>
+</body>
+</html>
